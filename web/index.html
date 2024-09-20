@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <script src="script.js"></script>
+    <script src="/eel.js"></script>
+    <link rel="icon" type="image/png" href="/note-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    
+</head>
+<body>
+    
+    <div class="header">
+        <div class="header-1">
+           
+            <input type="text" id="note" placeholder="Заметка" />
+
+            <button class="addbutton" onclick="addNote()">Добавить заметку</button>
+        </div>
+        <div class="header-2">
+            <button class="savebutton" onclick="saveNoteChanges()">Сохранить изменения</button>
+        </div>
+    </div>
+    <div class="list-holder" id="style-1" >
+        <ul id="notes_list">
+            
+        </ul>
+    </div>
+
+    <div class="text-of-note">
+        <textarea id="style-1"></textarea>
+    </div>
+  
+</body>
+</html>

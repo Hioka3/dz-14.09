@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222831;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    width: 200px; 
+    height: 20px;
+    padding: 8px;
+    margin: 10px;
+    resize: none;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-family: Merriweather;
+}
+label{
+    font-family: Merriweather;
+    color: white;
+}
+/* button {
+    width: 200px;
+    height: 70px;
+    padding: 10px;
+    background-color: #00ADB5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: Merriweather;
+    font-size: 18px;
+} */
+.addbutton{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    background-color: #00ADB5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: Merriweather;
+    font-size: 10px;
+    transition: background-color 0.5s;
+}
+.savebutton{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    top: 10px;
+    left: 0px;
+    position: absolute;
+    background-color: #00ADB5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: Merriweather;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+button:hover {
+    background-color: #71C9CE;
+    transition: background-color 0.5s;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    width: 250px;
+    height: 30px;
+    padding: 8px;
+    background-color: #424040;
+    margin-bottom: 5px;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+}
+
+li:hover {
+    transition: background-color 0.5s;
+    background-color: #ffffff71;
+}
+
+li.active {
+    transition: background-color 0.5s;
+    background-color: #929191a2;
+}
+
+li:focus {
+    transition: background-color 0.5s;
+    background-color: #ffffffa2;
+}
+.list-holder{
+    width: 300px;
+    height: 500px;
+    position: absolute; 
+    top: 150px;   
+    left: 10px; 
+    background-color: #7c7b7b;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+.header{
+    width: 930px;
+    height: 100px;
+    position: absolute; 
+    top: 10px;   
+    left: 10px; 
+    background-color: #00acb567;
+    border-radius: 15px;
+    
+}
+.header-1{
+    width: 500px;
+    height: 50px;
+    position: absolute; 
+    top: 20px;   
+    left: 50px;
+   
+}
+.header-2{
+    width: 200px;
+    height: 50px;
+    position: absolute; 
+    top: 20px;   
+    left: 700px; 
+    
+}
+.note-text{
+    position: absolute;
+    left: 20px;
+    width:80px ;
+    height:25px;
+    color: white;
+    
+}
+.delete-btn {
+    width:70px ;
+    height: 25px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px; /* Отступ между текстом и кнопкой */
+    font-family: Merriweather;
+    font-size: 12px;
+    position: absolute;
+    right: 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+.delete-btn:hover {
+    background-color: #ff0404;
+    transition: background-color 0.5s;
+}
+
+
+.text-of-note{
+    width: 570px;
+    height: 500px;
+    position: absolute; 
+    top: 150px;   
+    left: 360px; 
+    
+    
+}
+textarea {
+    width: 570px;
+    height: 500px;
+    background-color: #424040;
+    resize: none; /* Запрещает изменение размера */
+    border-radius: 15px;
+    color: white;
+    text-indent: 10px;
+}
